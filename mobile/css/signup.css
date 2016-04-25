@@ -1,0 +1,170 @@
+html {
+	cursor: auto;
+}
+
+body {
+	width: 100%;
+	margin: 0;
+	font-size: 200%;
+	font-family: 'Veranda', 'Arial', sans-serif;
+	background: #EBEBEB;
+	background-image: -webkit-radial-gradient(center center, circle cover, #EBEBEB 0%,#E0E0E0 50%, #C2C2C2 100%);
+	background-image: -moz-radial-gradient(center center, circle cover, #EBEBEB 0%,#E0E0E0 50%, #C2C2C2 100%);
+	background-image: -o-radial-gradient(center center, circle cover, #EBEBEB 0%,#E0E0E0 50%, #C2C2C2 100%);
+	background-image: radial-gradient(center center, circle cover, #EBEBEB 0%,#E0E0E0 50%, #C2C2C2 100%);
+	filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#EBEBEB', endColorstr='#C2C2C2');
+}
+
+body:before {
+	content: "";
+	box-shadow: 0px 0px 20px rgba(0,0,0,.7);
+	width: 100%;
+	z-index: 999;
+	height: 15px;
+	position: fixed;
+	top: -19px;
+	left: 0;
+}
+
+ul {
+	text-align: center;
+	-webkit-padding-start: 0;
+}
+
+li.nav {
+	padding: 18px 6px 6px 6px;
+	display: inline;
+	margin: 0 1% 0 1%;
+}
+
+a {
+	text-decoration: none;
+}
+
+li > a {
+	margin: 1% auto 0 auto;
+	color: #789AAF;
+	font-size: 1.6em;
+	text-decoration: none;
+}
+
+#buy-link {
+	color: #456163;
+}
+
+img {
+	border: 0;
+}
+
+#hero {
+	text-align: center;
+	margin-top: 5%;
+}
+
+#divider {
+	border-top: 1px #A6B2B2 solid;
+	margin: 1% 10% 4% 10%;
+}
+
+#form {
+	text-align: center;
+	animation: box-shadow 1.25s infinite alternate;
+	-moz-animation: box-shadow 1.25s infinite alternate;
+	-webkit-animation: box-shadow 1.5s infinite alternate;
+	border: 1px solid #A6B2B2;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	text-shadow: 2px 2px 0px #fff;
+	margin: 0 auto;
+	width: 80%;
+	background: #F0F0F0;
+	color: #586D73;
+	margin-bottom: 3%;
+	font-size: 1.1em;
+}
+
+#form p {
+	text-decoration: none;
+	font-size: 1.5em;
+	color: #586D73;
+}
+
+@keyframes box-shadow {
+	0% {box-shadow: 0 0 15px 5px rgba(168, 146, 146, 0.3);}
+	100% {box-shadow: 0 0 15px 3px rgba(205, 210, 212, 0.4);}
+}
+
+@-webkit-keyframes box-shadow {
+	0% {-webkit-box-shadow: 0 0 15px 5px rgba(168, 146, 146, 0.3);}
+	100% {-webkit-box-shadow: 0 0 15px 3px rgba(205, 210, 212, 0.4));}
+}
+
+@-moz-keyframes box-shadow {
+	0% {-moz-box-shadow: 0 0 15px 5px rgba(168, 146, 146, 0.3);}
+	100% {-moz-box-shadow: 0 0 15px 3px rgba(205, 210, 212, 0.4);}
+}
+
+#msg {
+	display: none; 
+	position: absolute; 
+	z-index: 200; 
+	background: url(http://onetoonehelp.com/images/msg_arrow.gif) left center no-repeat; 
+	padding-left: 7px
+}
+
+#msgcontent {
+	font-size: 18pt; 
+	display: block; 
+	background: #f3e6e6; 
+	border: 2px solid #924949; 
+	border-left: none; 
+	padding: 5px; 
+	min-width: 150px; 
+	max-width: 250px;
+}
+
+.input, textarea {
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border: 1px solid #D9DDDE;
+	text-align: left;
+	padding: 6px;
+	font-size: 0.6em;
+	color: #586D73;
+	width: 40%;
+}
+
+textarea {
+	height: 17%;
+}
+
+span a {
+	font: inherit;
+	text-decoration: none;
+	color: #586D73;
+}
+
+.submit {
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	box-shadow: 0 0 4px 2px rgba(204, 220, 224, 0);
+	-moz-box-shadow: 0 0 4px 2px rgba(204, 220, 224, 0);
+	-webkit-box-shadow: 0 0 4px 2px rgba(204, 220, 224, 0);
+	background: #DEE2E3;
+	border: 2px solid #CACECF;
+	color: #586D73;
+	padding: 6px;
+	font-size: 0.8em;
+}
+
+#copyright {
+	opacity: 0.7;
+	text-shadow: 1px 1px 0 white;
+	text-align: left;
+	color: #466366;
+	font-size: 0.9em;
+	margin: 0 10% 5px 2%;
+	vertical-align: bottom;
+}
