@@ -28,8 +28,6 @@ body:before {
 	-webkit-animation: intro ease-in-out 4s;
 	-moz-animation: intro ease-in-out 4s;
 	animation: intro ease-in-out 4s;
-	-webkit-animation-fill-mode: forwards;
-	-moz-animation-fill-mode: forwards;
 	animation-fill-mode: forwards;
 	-webkit-transition: opacity 0.5s;
 	-moz-transition: opacity 0.5s;
@@ -209,7 +207,7 @@ li > a {
 	}
 				
 				
-@media screen and (max-device-width: 699px) {
+@media screen and (max-width: 699px) {
 	li.nav {
 		padding: 18px 6px 6px 6px;
 		display: inline;
