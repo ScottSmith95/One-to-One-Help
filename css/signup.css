@@ -8,11 +8,11 @@ body {
 	font-family: 'Veranda', 'Arial', sans-serif;
 	font-size: 200%;
 	background: #EBEBEB;
+	filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#EBEBEB', endColorstr='#C2C2C2');
 	background-image: -webkit-radial-gradient(center center, circle cover, #EBEBEB 0%,#E0E0E0 50%, #C2C2C2 100%);
 	background-image: -moz-radial-gradient(center center, circle cover, #EBEBEB 0%,#E0E0E0 50%, #C2C2C2 100%);
 	background-image: -o-radial-gradient(center center, circle cover, #EBEBEB 0%,#E0E0E0 50%, #C2C2C2 100%);
-	background-image: radial-gradient(center center, circle cover, #EBEBEB 0%,#E0E0E0 50%, #C2C2C2 100%);
-	filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#EBEBEB', endColorstr='#C2C2C2');
+	background-image: radial-gradient(circle, #EBEBEB 0%,#E0E0E0 50%, #C2C2C2 100%);
 }
 
 body:before {

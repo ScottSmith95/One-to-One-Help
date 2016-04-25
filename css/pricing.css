@@ -6,11 +6,11 @@ body {
 	font-family: 'Veranda', 'Arial', sans-serif;
 	font-size: 200%;
 	background: #EBEBEB;
+	filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#EBEBEB', endColorstr='#C2C2C2');
 	background-image: -webkit-radial-gradient(center center, circle cover, #EBEBEB 0%,#E0E0E0 50%, #C2C2C2 100%);
 	background-image: -moz-radial-gradient(center center, circle cover, #EBEBEB 0%,#E0E0E0 50%, #C2C2C2 100%);
 	background-image: -o-radial-gradient(center center, circle cover, #EBEBEB 0%,#E0E0E0 50%, #C2C2C2 100%);
-	background-image: radial-gradient(center center, circle cover, #EBEBEB 0%,#E0E0E0 50%, #C2C2C2 100%);
-	filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#EBEBEB', endColorstr='#C2C2C2');
+	background-image: radial-gradient(circle, #EBEBEB 0%,#E0E0E0 50%, #C2C2C2 100%);
 }
 
 body:before {
@@ -76,19 +76,22 @@ li > a {
 		text-decoration: none;
 	}
 
-#hero {
-	opacity: 1;
-	-webkit-transition: opacity 0.5s;
-	-moz-transition: opacity 0.5s;
-	-o-transition: opacity 0.5s;
-	transition: opacity 0.5s;
-	timing-function: ease-in-out;
+			#hero {
 	padding: 5px;
 	text-align: center;
 	margin: 3% 30% 0 30%;
 }
 
-	#hero:hover {
+#hero img {
+	-moz-transition: opacity 0.5s;
+	-webkit-transition: opacity 0.5s;
+	-o-transition: opacity 0.5s;
+	transition: opacity 0.5s;
+	timing-function: ease-in-out;
+	opacity: 1;
+}
+
+	#hero img:hover {
 		opacity: 0.65;
 	}
 	
@@ -141,12 +144,9 @@ td {
 
 .bad {	
 	background: #E1E1E1;
-	-moz-animation-delay:1.5s;
-	-moz-animation: red 2s alternate forwards;
-	-webkit-animation-delay:1.5s;
-	-webkit-animation: red 2s alternate forwards;
-	animation: red 2s alternate forwards;
-	animation-delay: 1.5s;
+	-webkit-animation: red 3s ease-out 2s forwards;
+	-moz-animation: red 3s ease-out 2s forwards;
+	animation: red 3s ease-out 2s forwards;
 }
 
 @keyframes red {
@@ -166,12 +166,9 @@ td {
 
 .good {
 	background: #E1E1E1;
-	-moz-animation-delay:1.5s;
-	-moz-animation: green 2s alternate forwards;
-	-webkit-animation-delay:1.5s;
-	-webkit-animation: green 2s alternate forwards;
-	animation-delay: 1.5s;
-	animation: green 2s alternate forwards;
+	-webkit-animation: green 3s ease-out 2s forwards;
+	-moz-animation: green 3s ease-out 2s forwards;
+	animation: green 3s ease-out 2s forwards;
 }
 
 @keyframes green {
